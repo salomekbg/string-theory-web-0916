@@ -1,5 +1,3 @@
-require_relative "./spec_helper.rb"
-
 describe '#sort_by_appearance' do
 
   it 'Sort the characters in the first argument by the number of times each character appears in the text (descending)' do
