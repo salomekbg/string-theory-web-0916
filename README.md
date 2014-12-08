@@ -3,9 +3,17 @@ tags: cs, comp sci, computer science, todo
 languages: ruby
 resources: 1
 ---
+
 ## String Theory
 
 This lab has nothing to do with physics, I just really like that title. It does have to do with strings though.
+
+|Contents|
+|--------|
+|[Objective](#objective)|
+|[Examples](#examples)|
+|[Instructions](#instructions)|
+|[Resources](#resources)|
 
 ## Objective
 
