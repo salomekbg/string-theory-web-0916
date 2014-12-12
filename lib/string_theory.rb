@@ -1,12 +1,11 @@
-def sort_by_appearance(chars, text)
-  chars = chars.split("")  
-  counts = chars.each_with_object(Hash.new) { |l, c| c[l] = 0 }
-  text.split("").each { |c| counts[c] += 1 if counts.keys.include?(c) }
-  sorted = counts.to_a.sort_by{ |a| a[1]}.reverse
-  sorted.collect {|ar| ar[0]}.join
+def sort_by_appearance(chars, text)                                             
+  result = chars.split('').map do |c, h|                                        
+    [c, text.scan(c).count]                                                     
+  end                                                                          
+  result.sort_by{|arr| -arr.last}.map(&:first).join                                                                                                                                  
 end
 
-# 3 line version: 
+# dense, 3 line version: 
 #
 # def sort_by_appearance(chars, text)
 #   count = chars.split("").each_with_object({}) { |c, h| h[c] = 0 }
