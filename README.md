@@ -41,4 +41,4 @@ This lab is test driven so go ahead and run `rspec` and get those tests to pass!
 ## Resources
 * [Ruby Docs](http://www.ruby-doc.org/) - [String Class](http://www.ruby-doc.org/core-2.1.2/String.html)
 
-<a href='https://learn.co/lessons/string-theory' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/string-theory' title='String Theory'>String Theory</a> on Learn.co and start learning to code for free.</p>
